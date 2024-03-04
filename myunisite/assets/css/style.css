@@ -1,0 +1,84 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    background: url('../../background.png');
+}    
+.votre-header {
+    background-color: #c55394;
+    color: white;
+}
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.image-container {
+position: relative;
+width: 100%;
+max-width: 600px; /* Ajustez la largeur maximale selon vos besoins */
+margin: auto;
+}
+.images-containers {
+    display: flex;
+    justify-content: space-around;  /* Aligne les images horizontalement au centre */
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.images-containers img {
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 230px;
+    max-height: 230px;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.images-containers .alt-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Arrière-plan semi-transparent pour une meilleure lisibilité */
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #333; /* Couleur du texte */
+}
+.overlay-text {
+position: absolute;
+top: 35%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: #c55394;
+font-size: 24px; /* Ajustez la taille de police selon vos besoins */
+text-align: center;
+}
+.contact .info {
+    position: relative;
+    top: -10%;;
+    padding: 40px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: auto;
+}
+h4{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#c55394 ; 
+}
+p{
+    font-size: 11px;
+    margin-bottom: 50px;
+}
+.trouver{
+    align-items: normal;
+}
