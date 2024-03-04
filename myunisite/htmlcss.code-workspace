@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/iPortfolio"
+		},
+		{
+			"path": "../../python"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "htmlcss"
+	}
+}
